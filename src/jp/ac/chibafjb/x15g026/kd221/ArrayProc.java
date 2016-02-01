@@ -9,5 +9,14 @@ public class ArrayProc {
         }
 		return a; 
     }
+	public static int linerSearch2(int[] s, int n) {
+		int a = 99;
+        for(int i = 99; i >= 0 && s[i] != n; i--) {
+        	a--;
+        }
+        if(a==-1)
+		return 100;
+        return a;
+    }
 
 }
